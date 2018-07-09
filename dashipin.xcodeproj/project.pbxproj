@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F822294920E393CC0074054A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F822294820E393CC0074054A /* AppDelegate.m */; };
+		F822294C20E393CC0074054A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F822294B20E393CC0074054A /* ViewController.m */; };
+		F822294F20E393CC0074054A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F822294D20E393CC0074054A /* Main.storyboard */; };
+		F822295120E393CC0074054A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F822295020E393CC0074054A /* Assets.xcassets */; };
+		F822295420E393CC0074054A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F822295220E393CC0074054A /* LaunchScreen.storyboard */; };
+		F822295720E393CC0074054A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F822295620E393CC0074054A /* main.m */; };
+		F822296120E393CC0074054A /* dashipinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F822296020E393CC0074054A /* dashipinTests.m */; };
+		F822296C20E393CC0074054A /* dashipinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F822296B20E393CC0074054A /* dashipinUITests.m */; };
+		F84FF5CB20EF688200EA7512 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84FF5C920EF688200EA7512 /* MineViewController.m */; };
+		F84FF5CC20EF688200EA7512 /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F84FF5CA20EF688200EA7512 /* MineViewController.xib */; };
+		F8982ED220E4CB200086EED6 /* AliyunPlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8982ED120E4CB200086EED6 /* AliyunPlayerSDK.framework */; };
+		F8982ED320E4CB200086EED6 /* AliyunPlayerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F8982ED120E4CB200086EED6 /* AliyunPlayerSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8982ED820E4CB710086EED6 /* AliThirdparty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8982ED520E4CB710086EED6 /* AliThirdparty.framework */; };
+		F8982ED920E4CB710086EED6 /* AliThirdparty.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F8982ED520E4CB710086EED6 /* AliThirdparty.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8982EDA20E4CB710086EED6 /* AliyunVodPlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8982ED620E4CB710086EED6 /* AliyunVodPlayerSDK.framework */; };
+		F8982EDB20E4CB710086EED6 /* AliyunVodPlayerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F8982ED620E4CB710086EED6 /* AliyunVodPlayerSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8982EDC20E4CB710086EED6 /* AliyunLanguageSource.bundle in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = F8982ED720E4CB710086EED6 /* AliyunLanguageSource.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8982EEC20E4D1240086EED6 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8982EEA20E4D1240086EED6 /* HomeViewController.m */; };
+		F8982EED20E4D1240086EED6 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8982EEB20E4D1240086EED6 /* HomeViewController.xib */; };
+		F8982EF520E603160086EED6 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8982EF320E603160086EED6 /* CustomViewController.m */; };
+		F8982EF620E603160086EED6 /* CustomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8982EF420E603160086EED6 /* CustomViewController.xib */; };
+		F8982EFA20E603B90086EED6 /* ViewCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F8982EF920E603B90086EED6 /* ViewCardModel.m */; };
+		F8982EFE20E6203F0086EED6 /* CardViewTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8982EFC20E6203F0086EED6 /* CardViewTableCell.m */; };
+		F8982EFF20E6203F0086EED6 /* CardViewTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8982EFD20E6203F0086EED6 /* CardViewTableCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F822295D20E393CC0074054A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F822293C20E393CB0074054A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F822294320E393CB0074054A;
+			remoteInfo = dashipin;
+		};
+		F822296820E393CC0074054A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F822293C20E393CB0074054A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F822294320E393CB0074054A;
+			remoteInfo = dashipin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F8982ED420E4CB200086EED6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F8982ED920E4CB710086EED6 /* AliThirdparty.framework in Embed Frameworks */,
+				F8982ED320E4CB200086EED6 /* AliyunPlayerSDK.framework in Embed Frameworks */,
+				F8982EDB20E4CB710086EED6 /* AliyunVodPlayerSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8982EDD20E4CB710086EED6 /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F8982EDC20E4CB710086EED6 /* AliyunLanguageSource.bundle in Embed PlugIns */,
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F822294420E393CC0074054A /* dashipin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dashipin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F822294720E393CC0074054A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F822294820E393CC0074054A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F822294A20E393CC0074054A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F822294B20E393CC0074054A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F822294E20E393CC0074054A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F822295020E393CC0074054A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F822295320E393CC0074054A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F822295520E393CC0074054A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F822295620E393CC0074054A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F822295C20E393CC0074054A /* dashipinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dashipinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F822296020E393CC0074054A /* dashipinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dashipinTests.m; sourceTree = "<group>"; };
+		F822296220E393CC0074054A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F822296720E393CC0074054A /* dashipinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dashipinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F822296B20E393CC0074054A /* dashipinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dashipinUITests.m; sourceTree = "<group>"; };
+		F822296D20E393CC0074054A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F84FF5C820EF688200EA7512 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		F84FF5C920EF688200EA7512 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		F84FF5CA20EF688200EA7512 /* MineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
+		F8982ECF20E4B28D0086EED6 /* dashipin copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "dashipin copy-Info.plist"; path = "/Users/qbq_wzk/zhangshexin/Seafile/ios/dashipin/dashipin copy-Info.plist"; sourceTree = "<absolute>"; };
+		F8982ED020E4BABC0086EED6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F8982ED120E4CB200086EED6 /* AliyunPlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliyunPlayerSDK.framework; sourceTree = "<group>"; };
+		F8982ED520E4CB710086EED6 /* AliThirdparty.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliThirdparty.framework; sourceTree = "<group>"; };
+		F8982ED620E4CB710086EED6 /* AliyunVodPlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliyunVodPlayerSDK.framework; sourceTree = "<group>"; };
+		F8982ED720E4CB710086EED6 /* AliyunLanguageSource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AliyunLanguageSource.bundle; sourceTree = "<group>"; };
+		F8982EE920E4D1240086EED6 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		F8982EEA20E4D1240086EED6 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		F8982EEB20E4D1240086EED6 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		F8982EF220E603160086EED6 /* CustomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		F8982EF320E603160086EED6 /* CustomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		F8982EF420E603160086EED6 /* CustomViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomViewController.xib; sourceTree = "<group>"; };
+		F8982EF820E603B90086EED6 /* ViewCardModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewCardModel.h; sourceTree = "<group>"; };
+		F8982EF920E603B90086EED6 /* ViewCardModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewCardModel.m; sourceTree = "<group>"; };
+		F8982EFB20E6203F0086EED6 /* CardViewTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardViewTableCell.h; sourceTree = "<group>"; };
+		F8982EFC20E6203F0086EED6 /* CardViewTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardViewTableCell.m; sourceTree = "<group>"; };
+		F8982EFD20E6203F0086EED6 /* CardViewTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardViewTableCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F822294120E393CB0074054A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8982ED820E4CB710086EED6 /* AliThirdparty.framework in Frameworks */,
+				F8982ED220E4CB200086EED6 /* AliyunPlayerSDK.framework in Frameworks */,
+				F8982EDA20E4CB710086EED6 /* AliyunVodPlayerSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F822295920E393CC0074054A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F822296420E393CC0074054A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F822293B20E393CB0074054A = {
+			isa = PBXGroup;
+			children = (
+				F8982ED520E4CB710086EED6 /* AliThirdparty.framework */,
+				F8982ED720E4CB710086EED6 /* AliyunLanguageSource.bundle */,
+				F8982ED620E4CB710086EED6 /* AliyunVodPlayerSDK.framework */,
+				F8982ED120E4CB200086EED6 /* AliyunPlayerSDK.framework */,
+				F822294620E393CC0074054A /* dashipin */,
+				F822295F20E393CC0074054A /* dashipinTests */,
+				F822296A20E393CC0074054A /* dashipinUITests */,
+				F822294520E393CC0074054A /* Products */,
+				F8982ECF20E4B28D0086EED6 /* dashipin copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		F822294520E393CC0074054A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F822294420E393CC0074054A /* dashipin.app */,
+				F822295C20E393CC0074054A /* dashipinTests.xctest */,
+				F822296720E393CC0074054A /* dashipinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F822294620E393CC0074054A /* dashipin */ = {
+			isa = PBXGroup;
+			children = (
+				F84FF5BD20EF40E900EA7512 /* model */,
+				F8982EF120E602E80086EED6 /* BaseViewController */,
+				F8982EDE20E4CDDE0086EED6 /* UIContorller */,
+				F8982EC020E48DB60086EED6 /* Resource */,
+				F822294720E393CC0074054A /* AppDelegate.h */,
+				F822294820E393CC0074054A /* AppDelegate.m */,
+				F822294A20E393CC0074054A /* ViewController.h */,
+				F822294B20E393CC0074054A /* ViewController.m */,
+				F822294D20E393CC0074054A /* Main.storyboard */,
+				F822295020E393CC0074054A /* Assets.xcassets */,
+				F822295220E393CC0074054A /* LaunchScreen.storyboard */,
+				F822295520E393CC0074054A /* Info.plist */,
+				F822295620E393CC0074054A /* main.m */,
+				F8982ED020E4BABC0086EED6 /* PrefixHeader.pch */,
+			);
+			path = dashipin;
+			sourceTree = "<group>";
+		};
+		F822295F20E393CC0074054A /* dashipinTests */ = {
+			isa = PBXGroup;
+			children = (
+				F822296020E393CC0074054A /* dashipinTests.m */,
+				F822296220E393CC0074054A /* Info.plist */,
+			);
+			path = dashipinTests;
+			sourceTree = "<group>";
+		};
+		F822296A20E393CC0074054A /* dashipinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F822296B20E393CC0074054A /* dashipinUITests.m */,
+				F822296D20E393CC0074054A /* Info.plist */,
+			);
+			path = dashipinUITests;
+			sourceTree = "<group>";
+		};
+		F84FF5BD20EF40E900EA7512 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F8982EF820E603B90086EED6 /* ViewCardModel.h */,
+				F8982EF920E603B90086EED6 /* ViewCardModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F84FF5BE20EF413800EA7512 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F84FF5BF20EF414400EA7512 /* Choiceness */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Choiceness;
+			sourceTree = "<group>";
+		};
+		F84FF5C020EF418400EA7512 /* Recoder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Recoder;
+			sourceTree = "<group>";
+		};
+		F84FF5C120EF419100EA7512 /* Mining */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mining;
+			sourceTree = "<group>";
+		};
+		F84FF5C220EF420300EA7512 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				F84FF5C820EF688200EA7512 /* MineViewController.h */,
+				F84FF5C920EF688200EA7512 /* MineViewController.m */,
+				F84FF5CA20EF688200EA7512 /* MineViewController.xib */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		F8982EC020E48DB60086EED6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		F8982EDE20E4CDDE0086EED6 /* UIContorller */ = {
+			isa = PBXGroup;
+			children = (
+				F84FF5C220EF420300EA7512 /* Mine */,
+				F84FF5C120EF419100EA7512 /* Mining */,
+				F84FF5C020EF418400EA7512 /* Recoder */,
+				F84FF5BF20EF414400EA7512 /* Choiceness */,
+				F84FF5BE20EF413800EA7512 /* Home */,
+				F8982EE920E4D1240086EED6 /* HomeViewController.h */,
+				F8982EEA20E4D1240086EED6 /* HomeViewController.m */,
+				F8982EEB20E4D1240086EED6 /* HomeViewController.xib */,
+				F8982EDF20E4CE080086EED6 /* Main */,
+			);
+			path = UIContorller;
+			sourceTree = "<group>";
+		};
+		F8982EDF20E4CE080086EED6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F8982EEF20E602050086EED6 /* ViewCardCell */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F8982EEF20E602050086EED6 /* ViewCardCell */ = {
+			isa = PBXGroup;
+			children = (
+				F8982EFB20E6203F0086EED6 /* CardViewTableCell.h */,
+				F8982EFC20E6203F0086EED6 /* CardViewTableCell.m */,
+				F8982EFD20E6203F0086EED6 /* CardViewTableCell.xib */,
+			);
+			path = ViewCardCell;
+			sourceTree = "<group>";
+		};
+		F8982EF120E602E80086EED6 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F8982EF220E603160086EED6 /* CustomViewController.h */,
+				F8982EF320E603160086EED6 /* CustomViewController.m */,
+				F8982EF420E603160086EED6 /* CustomViewController.xib */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F822294320E393CB0074054A /* dashipin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F822297020E393CC0074054A /* Build configuration list for PBXNativeTarget "dashipin" */;
+			buildPhases = (
+				F822294020E393CB0074054A /* Sources */,
+				F822294120E393CB0074054A /* Frameworks */,
+				F822294220E393CB0074054A /* Resources */,
+				F8982ED420E4CB200086EED6 /* Embed Frameworks */,
+				F8982EDD20E4CB710086EED6 /* Embed PlugIns */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dashipin;
+			productName = dashipin;
+			productReference = F822294420E393CC0074054A /* dashipin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F822295B20E393CC0074054A /* dashipinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F822297320E393CC0074054A /* Build configuration list for PBXNativeTarget "dashipinTests" */;
+			buildPhases = (
+				F822295820E393CC0074054A /* Sources */,
+				F822295920E393CC0074054A /* Frameworks */,
+				F822295A20E393CC0074054A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F822295E20E393CC0074054A /* PBXTargetDependency */,
+			);
+			name = dashipinTests;
+			productName = dashipinTests;
+			productReference = F822295C20E393CC0074054A /* dashipinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F822296620E393CC0074054A /* dashipinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F822297620E393CC0074054A /* Build configuration list for PBXNativeTarget "dashipinUITests" */;
+			buildPhases = (
+				F822296320E393CC0074054A /* Sources */,
+				F822296420E393CC0074054A /* Frameworks */,
+				F822296520E393CC0074054A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F822296920E393CC0074054A /* PBXTargetDependency */,
+			);
+			name = dashipinUITests;
+			productName = dashipinUITests;
+			productReference = F822296720E393CC0074054A /* dashipinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F822293C20E393CB0074054A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = dashipin;
+				TargetAttributes = {
+					F822294320E393CB0074054A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F822295B20E393CC0074054A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F822294320E393CB0074054A;
+					};
+					F822296620E393CC0074054A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F822294320E393CB0074054A;
+					};
+				};
+			};
+			buildConfigurationList = F822293F20E393CB0074054A /* Build configuration list for PBXProject "dashipin" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F822293B20E393CB0074054A;
+			productRefGroup = F822294520E393CC0074054A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F822294320E393CB0074054A /* dashipin */,
+				F822295B20E393CC0074054A /* dashipinTests */,
+				F822296620E393CC0074054A /* dashipinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F822294220E393CB0074054A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F822295420E393CC0074054A /* LaunchScreen.storyboard in Resources */,
+				F84FF5CC20EF688200EA7512 /* MineViewController.xib in Resources */,
+				F8982EF620E603160086EED6 /* CustomViewController.xib in Resources */,
+				F822295120E393CC0074054A /* Assets.xcassets in Resources */,
+				F8982EFF20E6203F0086EED6 /* CardViewTableCell.xib in Resources */,
+				F822294F20E393CC0074054A /* Main.storyboard in Resources */,
+				F8982EED20E4D1240086EED6 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F822295A20E393CC0074054A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F822296520E393CC0074054A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F822294020E393CB0074054A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F822294C20E393CC0074054A /* ViewController.m in Sources */,
+				F8982EF520E603160086EED6 /* CustomViewController.m in Sources */,
+				F8982EFE20E6203F0086EED6 /* CardViewTableCell.m in Sources */,
+				F822295720E393CC0074054A /* main.m in Sources */,
+				F8982EEC20E4D1240086EED6 /* HomeViewController.m in Sources */,
+				F8982EFA20E603B90086EED6 /* ViewCardModel.m in Sources */,
+				F822294920E393CC0074054A /* AppDelegate.m in Sources */,
+				F84FF5CB20EF688200EA7512 /* MineViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F822295820E393CC0074054A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F822296120E393CC0074054A /* dashipinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F822296320E393CC0074054A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F822296C20E393CC0074054A /* dashipinUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F822295E20E393CC0074054A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F822294320E393CB0074054A /* dashipin */;
+			targetProxy = F822295D20E393CC0074054A /* PBXContainerItemProxy */;
+		};
+		F822296920E393CC0074054A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F822294320E393CB0074054A /* dashipin */;
+			targetProxy = F822296820E393CC0074054A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F822294D20E393CC0074054A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F822294E20E393CC0074054A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F822295220E393CC0074054A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F822295320E393CC0074054A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F822296E20E393CC0074054A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = /Users/qbq_wzk/zhangshexin/Seafile/ios/dashipin/dashipin/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F822296F20E393CC0074054A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = /Users/qbq_wzk/zhangshexin/Seafile/ios/dashipin/dashipin/PrefixHeader.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F822297120E393CC0074054A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3J7ZZDAL6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = dashipin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sam.dashipin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F822297220E393CC0074054A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3J7ZZDAL6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = dashipin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sam.dashipin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F822297420E393CC0074054A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3J7ZZDAL6;
+				INFOPLIST_FILE = dashipinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banquanjia.dashipinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dashipin.app/dashipin";
+			};
+			name = Debug;
+		};
+		F822297520E393CC0074054A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3J7ZZDAL6;
+				INFOPLIST_FILE = dashipinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banquanjia.dashipinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dashipin.app/dashipin";
+			};
+			name = Release;
+		};
+		F822297720E393CC0074054A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3J7ZZDAL6;
+				INFOPLIST_FILE = dashipinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banquanjia.dashipinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dashipin;
+			};
+			name = Debug;
+		};
+		F822297820E393CC0074054A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3J7ZZDAL6;
+				INFOPLIST_FILE = dashipinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banquanjia.dashipinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dashipin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F822293F20E393CB0074054A /* Build configuration list for PBXProject "dashipin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F822296E20E393CC0074054A /* Debug */,
+				F822296F20E393CC0074054A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F822297020E393CC0074054A /* Build configuration list for PBXNativeTarget "dashipin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F822297120E393CC0074054A /* Debug */,
+				F822297220E393CC0074054A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F822297320E393CC0074054A /* Build configuration list for PBXNativeTarget "dashipinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F822297420E393CC0074054A /* Debug */,
+				F822297520E393CC0074054A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F822297620E393CC0074054A /* Build configuration list for PBXNativeTarget "dashipinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F822297720E393CC0074054A /* Debug */,
+				F822297820E393CC0074054A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F822293C20E393CB0074054A /* Project object */;
+}
