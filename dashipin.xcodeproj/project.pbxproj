@@ -17,6 +17,12 @@
 		F822296C20E393CC0074054A /* dashipinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F822296B20E393CC0074054A /* dashipinUITests.m */; };
 		F84FF5CB20EF688200EA7512 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84FF5C920EF688200EA7512 /* MineViewController.m */; };
 		F84FF5CC20EF688200EA7512 /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F84FF5CA20EF688200EA7512 /* MineViewController.xib */; };
+		F84FF5E820F3155F00EA7512 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84FF5E620F3155F00EA7512 /* MainViewController.m */; };
+		F84FF5E920F3155F00EA7512 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F84FF5E720F3155F00EA7512 /* MainViewController.xib */; };
+		F84FF5ED20F33AE300EA7512 /* ChoicenessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84FF5EB20F33AE300EA7512 /* ChoicenessViewController.m */; };
+		F84FF5EE20F33AE300EA7512 /* ChoicenessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F84FF5EC20F33AE300EA7512 /* ChoicenessViewController.xib */; };
+		F84FF5F220F33AFD00EA7512 /* MiningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84FF5F020F33AFD00EA7512 /* MiningViewController.m */; };
+		F84FF5F320F33AFD00EA7512 /* MiningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F84FF5F120F33AFD00EA7512 /* MiningViewController.xib */; };
 		F8982ED220E4CB200086EED6 /* AliyunPlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8982ED120E4CB200086EED6 /* AliyunPlayerSDK.framework */; };
 		F8982ED320E4CB200086EED6 /* AliyunPlayerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F8982ED120E4CB200086EED6 /* AliyunPlayerSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F8982ED820E4CB710086EED6 /* AliThirdparty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8982ED520E4CB710086EED6 /* AliThirdparty.framework */; };
@@ -97,6 +103,15 @@
 		F84FF5C820EF688200EA7512 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
 		F84FF5C920EF688200EA7512 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		F84FF5CA20EF688200EA7512 /* MineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
+		F84FF5E520F3155F00EA7512 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F84FF5E620F3155F00EA7512 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F84FF5E720F3155F00EA7512 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		F84FF5EA20F33AE300EA7512 /* ChoicenessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChoicenessViewController.h; sourceTree = "<group>"; };
+		F84FF5EB20F33AE300EA7512 /* ChoicenessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChoicenessViewController.m; sourceTree = "<group>"; };
+		F84FF5EC20F33AE300EA7512 /* ChoicenessViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChoicenessViewController.xib; sourceTree = "<group>"; };
+		F84FF5EF20F33AFD00EA7512 /* MiningViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiningViewController.h; sourceTree = "<group>"; };
+		F84FF5F020F33AFD00EA7512 /* MiningViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiningViewController.m; sourceTree = "<group>"; };
+		F84FF5F120F33AFD00EA7512 /* MiningViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MiningViewController.xib; sourceTree = "<group>"; };
 		F8982ECF20E4B28D0086EED6 /* dashipin copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "dashipin copy-Info.plist"; path = "/Users/qbq_wzk/zhangshexin/Seafile/ios/dashipin/dashipin copy-Info.plist"; sourceTree = "<absolute>"; };
 		F8982ED020E4BABC0086EED6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		F8982ED120E4CB200086EED6 /* AliyunPlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliyunPlayerSDK.framework; sourceTree = "<group>"; };
@@ -220,6 +235,10 @@
 		F84FF5BE20EF413800EA7512 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				F8982EE920E4D1240086EED6 /* HomeViewController.h */,
+				F8982EEA20E4D1240086EED6 /* HomeViewController.m */,
+				F8982EEB20E4D1240086EED6 /* HomeViewController.xib */,
+				F8982EEF20E602050086EED6 /* ViewCardCell */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -227,6 +246,9 @@
 		F84FF5BF20EF414400EA7512 /* Choiceness */ = {
 			isa = PBXGroup;
 			children = (
+				F84FF5EA20F33AE300EA7512 /* ChoicenessViewController.h */,
+				F84FF5EB20F33AE300EA7512 /* ChoicenessViewController.m */,
+				F84FF5EC20F33AE300EA7512 /* ChoicenessViewController.xib */,
 			);
 			path = Choiceness;
 			sourceTree = "<group>";
@@ -241,6 +263,9 @@
 		F84FF5C120EF419100EA7512 /* Mining */ = {
 			isa = PBXGroup;
 			children = (
+				F84FF5EF20F33AFD00EA7512 /* MiningViewController.h */,
+				F84FF5F020F33AFD00EA7512 /* MiningViewController.m */,
+				F84FF5F120F33AFD00EA7512 /* MiningViewController.xib */,
 			);
 			path = Mining;
 			sourceTree = "<group>";
@@ -270,20 +295,11 @@
 				F84FF5C020EF418400EA7512 /* Recoder */,
 				F84FF5BF20EF414400EA7512 /* Choiceness */,
 				F84FF5BE20EF413800EA7512 /* Home */,
-				F8982EE920E4D1240086EED6 /* HomeViewController.h */,
-				F8982EEA20E4D1240086EED6 /* HomeViewController.m */,
-				F8982EEB20E4D1240086EED6 /* HomeViewController.xib */,
-				F8982EDF20E4CE080086EED6 /* Main */,
+				F84FF5E520F3155F00EA7512 /* MainViewController.h */,
+				F84FF5E620F3155F00EA7512 /* MainViewController.m */,
+				F84FF5E720F3155F00EA7512 /* MainViewController.xib */,
 			);
 			path = UIContorller;
-			sourceTree = "<group>";
-		};
-		F8982EDF20E4CE080086EED6 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				F8982EEF20E602050086EED6 /* ViewCardCell */,
-			);
-			path = Main;
 			sourceTree = "<group>";
 		};
 		F8982EEF20E602050086EED6 /* ViewCardCell */ = {
@@ -417,8 +433,11 @@
 				F822295420E393CC0074054A /* LaunchScreen.storyboard in Resources */,
 				F84FF5CC20EF688200EA7512 /* MineViewController.xib in Resources */,
 				F8982EF620E603160086EED6 /* CustomViewController.xib in Resources */,
+				F84FF5E920F3155F00EA7512 /* MainViewController.xib in Resources */,
+				F84FF5F320F33AFD00EA7512 /* MiningViewController.xib in Resources */,
 				F822295120E393CC0074054A /* Assets.xcassets in Resources */,
 				F8982EFF20E6203F0086EED6 /* CardViewTableCell.xib in Resources */,
+				F84FF5EE20F33AE300EA7512 /* ChoicenessViewController.xib in Resources */,
 				F822294F20E393CC0074054A /* Main.storyboard in Resources */,
 				F8982EED20E4D1240086EED6 /* HomeViewController.xib in Resources */,
 			);
@@ -449,6 +468,9 @@
 				F8982EF520E603160086EED6 /* CustomViewController.m in Sources */,
 				F8982EFE20E6203F0086EED6 /* CardViewTableCell.m in Sources */,
 				F822295720E393CC0074054A /* main.m in Sources */,
+				F84FF5ED20F33AE300EA7512 /* ChoicenessViewController.m in Sources */,
+				F84FF5F220F33AFD00EA7512 /* MiningViewController.m in Sources */,
+				F84FF5E820F3155F00EA7512 /* MainViewController.m in Sources */,
 				F8982EEC20E4D1240086EED6 /* HomeViewController.m in Sources */,
 				F8982EFA20E603B90086EED6 /* ViewCardModel.m in Sources */,
 				F822294920E393CC0074054A /* AppDelegate.m in Sources */,
