@@ -40,10 +40,6 @@
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <edgeInsets key="layoutMargins" top="0.0" left="8" bottom="8" right="8"/>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LuncherScreen" translatesAutoresizingMaskIntoConstraints="NO" id="jyh-6b-GAd">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="563"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="5yS-Hh-PAU"/>
@@ -54,7 +50,4 @@
             <point key="canvasLocation" x="-666.39999999999998" y="346.77661169415296"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="LuncherScreen" width="696" height="870"/>
-    </resources>
 </document>

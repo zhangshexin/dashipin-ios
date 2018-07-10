@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "HomeViewController.h"
 #import "MineViewController.h"
+#import "MainViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -23,7 +24,8 @@
     [NSThread sleepForTimeInterval:3];
     
 //    UIViewController *vc = [HomeViewController new];
-    MineViewController *vc = [MineViewController new];
+//    MineViewController *vc = [MineViewController new];
+    MainViewController *vc=[MainViewController new];
     vc.view.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = vc;
     

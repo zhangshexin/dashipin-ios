@@ -25,7 +25,7 @@
     if(self = [super init]){
         self=[[[NSBundle mainBundle] loadNibNamed:@"CardViewTableCell" owner:self options:nil]lastObject];
         if(model !=nil){
-            _userName.text=model.name;
+//            _userName.text=model.name;
         }
     }
     return self;
